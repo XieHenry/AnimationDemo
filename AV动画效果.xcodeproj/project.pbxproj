@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02B33411E8CFA2B00259888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33401E8CFA2B00259888 /* main.m */; };
+		C02B33441E8CFA2B00259888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33431E8CFA2B00259888 /* AppDelegate.m */; };
+		C02B33471E8CFA2B00259888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33461E8CFA2B00259888 /* ViewController.m */; };
+		C02B334A1E8CFA2B00259888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B33481E8CFA2B00259888 /* Main.storyboard */; };
+		C02B334C1E8CFA2B00259888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B334B1E8CFA2B00259888 /* Assets.xcassets */; };
+		C02B334F1E8CFA2B00259888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B334D1E8CFA2B00259888 /* LaunchScreen.storyboard */; };
+		C02B335A1E8CFA2C00259888 /* AV____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33591E8CFA2C00259888 /* AV____Tests.m */; };
+		C02B33651E8CFA2C00259888 /* AV____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33641E8CFA2C00259888 /* AV____UITests.m */; };
+		C02B337E1E8CFFD900259888 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B337D1E8CFFD900259888 /* CustomButton.m */; };
+		C02B33821E8D394A00259888 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33811E8D394A00259888 /* BaseViewController.m */; };
+		C02B33891E8E351F00259888 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33881E8E351F00259888 /* CenterViewController.m */; };
+		C02B33981E8E3DC100259888 /* AffineTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33971E8E3DC100259888 /* AffineTransformController.m */; };
+		C02B339B1E8E3DFB00259888 /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B339A1E8E3DFB00259888 /* TransitionAnimationController.m */; };
+		C02B339E1E8E3E0F00259888 /* GroupAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B339D1E8E3E0F00259888 /* GroupAnimationController.m */; };
+		C02B33A11E8E3E2200259888 /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33A01E8E3E2200259888 /* KeyFrameViewController.m */; };
+		C02B33A41E8E3E9300259888 /* IntegrationAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33A31E8E3E9300259888 /* IntegrationAnimationController.m */; };
+		C02B33A71E8E4ECF00259888 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33A61E8E4ECF00259888 /* HomeViewController.m */; };
+		C02B33CF1E8E946800259888 /* bloom.caf in Resources */ = {isa = PBXBuildFile; fileRef = C02B33A91E8E946800259888 /* bloom.caf */; };
+		C02B33D01E8E946800259888 /* fold.caf in Resources */ = {isa = PBXBuildFile; fileRef = C02B33AA1E8E946800259888 /* fold.caf */; };
+		C02B33D11E8E946800259888 /* selected.caf in Resources */ = {isa = PBXBuildFile; fileRef = C02B33AB1E8E946800259888 /* selected.caf */; };
+		C02B33D21E8E946800259888 /* MCFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33AE1E8E946800259888 /* MCFireworksButton.m */; };
+		C02B33D31E8E946800259888 /* MCFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33B01E8E946800259888 /* MCFireworksView.m */; };
+		C02B33D41E8E946800259888 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33B31E8E946800259888 /* DCPathButton.m */; };
+		C02B33D51E8E946800259888 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33B51E8E946800259888 /* DCPathCenterButton.m */; };
+		C02B33D61E8E946800259888 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33B71E8E946800259888 /* DCPathItemButton.m */; };
+		C02B33D71E8E946800259888 /* DWBubbleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33BA1E8E946800259888 /* DWBubbleMenuButton.m */; };
+		C02B33D81E8E946800259888 /* chooser-button-input-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33BC1E8E946800259888 /* chooser-button-input-highlighted@2x.png */; };
+		C02B33D91E8E946800259888 /* chooser-button-input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33BD1E8E946800259888 /* chooser-button-input@2x.png */; };
+		C02B33DA1E8E946800259888 /* chooser-button-tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33BE1E8E946800259888 /* chooser-button-tab-highlighted@2x.png */; };
+		C02B33DB1E8E946800259888 /* chooser-button-tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33BF1E8E946800259888 /* chooser-button-tab@2x.png */; };
+		C02B33DC1E8E946800259888 /* chooser-moment-button-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C01E8E946800259888 /* chooser-moment-button-highlighted@2x.png */; };
+		C02B33DD1E8E946800259888 /* chooser-moment-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C11E8E946800259888 /* chooser-moment-button@2x.png */; };
+		C02B33DE1E8E946800259888 /* chooser-moment-icon-camera-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C21E8E946800259888 /* chooser-moment-icon-camera-highlighted@2x.png */; };
+		C02B33DF1E8E946800259888 /* chooser-moment-icon-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C31E8E946800259888 /* chooser-moment-icon-camera@2x.png */; };
+		C02B33E01E8E946800259888 /* chooser-moment-icon-music-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C41E8E946800259888 /* chooser-moment-icon-music-highlighted@2x.png */; };
+		C02B33E11E8E946800259888 /* chooser-moment-icon-music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C51E8E946800259888 /* chooser-moment-icon-music@2x.png */; };
+		C02B33E21E8E946800259888 /* chooser-moment-icon-place-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C61E8E946800259888 /* chooser-moment-icon-place-highlighted@2x.png */; };
+		C02B33E31E8E946800259888 /* chooser-moment-icon-place@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C71E8E946800259888 /* chooser-moment-icon-place@2x.png */; };
+		C02B33E41E8E946800259888 /* chooser-moment-icon-sleep-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C81E8E946800259888 /* chooser-moment-icon-sleep-highlighted@2x.png */; };
+		C02B33E51E8E946800259888 /* chooser-moment-icon-sleep@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33C91E8E946800259888 /* chooser-moment-icon-sleep@2x.png */; };
+		C02B33E61E8E946800259888 /* chooser-moment-icon-thought-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33CA1E8E946800259888 /* chooser-moment-icon-thought-highlighted@2x.png */; };
+		C02B33E71E8E946800259888 /* chooser-moment-icon-thought@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33CB1E8E946800259888 /* chooser-moment-icon-thought@2x.png */; };
+		C02B33E81E8E946800259888 /* Like-Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33CC1E8E946800259888 /* Like-Blue@2x.png */; };
+		C02B33E91E8E946800259888 /* Like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33CD1E8E946800259888 /* Like@2x.png */; };
+		C02B33EA1E8E946800259888 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B33CE1E8E946800259888 /* Sparkle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C02B33561E8CFA2C00259888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B33341E8CFA2B00259888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02B333B1E8CFA2B00259888;
+			remoteInfo = "AV动画效果";
+		};
+		C02B33611E8CFA2C00259888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B33341E8CFA2B00259888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02B333B1E8CFA2B00259888;
+			remoteInfo = "AV动画效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02B333C1E8CFA2B00259888 /* AV动画效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AV动画效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B33401E8CFA2B00259888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C02B33421E8CFA2B00259888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C02B33431E8CFA2B00259888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C02B33451E8CFA2B00259888 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C02B33461E8CFA2B00259888 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C02B33491E8CFA2B00259888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02B334B1E8CFA2B00259888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02B334E1E8CFA2B00259888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02B33501E8CFA2B00259888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B33551E8CFA2C00259888 /* AV动画效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AV动画效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B33591E8CFA2C00259888 /* AV____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AV____Tests.m"; sourceTree = "<group>"; };
+		C02B335B1E8CFA2C00259888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B33601E8CFA2C00259888 /* AV动画效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AV动画效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B33641E8CFA2C00259888 /* AV____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AV____UITests.m"; sourceTree = "<group>"; };
+		C02B33661E8CFA2C00259888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B337C1E8CFFD900259888 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		C02B337D1E8CFFD900259888 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		C02B33801E8D394A00259888 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C02B33811E8D394A00259888 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C02B33831E8D3B5E00259888 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C02B33871E8E351F00259888 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CenterViewController.h; path = ../CenterViewController.h; sourceTree = "<group>"; };
+		C02B33881E8E351F00259888 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CenterViewController.m; path = ../CenterViewController.m; sourceTree = "<group>"; };
+		C02B33961E8E3DC100259888 /* AffineTransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineTransformController.h; sourceTree = "<group>"; };
+		C02B33971E8E3DC100259888 /* AffineTransformController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineTransformController.m; sourceTree = "<group>"; };
+		C02B33991E8E3DFB00259888 /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationController.h; sourceTree = "<group>"; };
+		C02B339A1E8E3DFB00259888 /* TransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationController.m; sourceTree = "<group>"; };
+		C02B339C1E8E3E0F00259888 /* GroupAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimationController.h; sourceTree = "<group>"; };
+		C02B339D1E8E3E0F00259888 /* GroupAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationController.m; sourceTree = "<group>"; };
+		C02B339F1E8E3E2200259888 /* KeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
+		C02B33A01E8E3E2200259888 /* KeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
+		C02B33A21E8E3E9300259888 /* IntegrationAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationAnimationController.h; sourceTree = "<group>"; };
+		C02B33A31E8E3E9300259888 /* IntegrationAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationAnimationController.m; sourceTree = "<group>"; };
+		C02B33A51E8E4ECF00259888 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C02B33A61E8E4ECF00259888 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C02B33A91E8E946800259888 /* bloom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bloom.caf; sourceTree = "<group>"; };
+		C02B33AA1E8E946800259888 /* fold.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fold.caf; sourceTree = "<group>"; };
+		C02B33AB1E8E946800259888 /* selected.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = selected.caf; sourceTree = "<group>"; };
+		C02B33AD1E8E946800259888 /* MCFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFireworksButton.h; sourceTree = "<group>"; };
+		C02B33AE1E8E946800259888 /* MCFireworksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFireworksButton.m; sourceTree = "<group>"; };
+		C02B33AF1E8E946800259888 /* MCFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFireworksView.h; sourceTree = "<group>"; };
+		C02B33B01E8E946800259888 /* MCFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFireworksView.m; sourceTree = "<group>"; };
+		C02B33B21E8E946800259888 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
+		C02B33B31E8E946800259888 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
+		C02B33B41E8E946800259888 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
+		C02B33B51E8E946800259888 /* DCPathCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathCenterButton.m; sourceTree = "<group>"; };
+		C02B33B61E8E946800259888 /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathItemButton.h; sourceTree = "<group>"; };
+		C02B33B71E8E946800259888 /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathItemButton.m; sourceTree = "<group>"; };
+		C02B33B91E8E946800259888 /* DWBubbleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBubbleMenuButton.h; sourceTree = "<group>"; };
+		C02B33BA1E8E946800259888 /* DWBubbleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBubbleMenuButton.m; sourceTree = "<group>"; };
+		C02B33BC1E8E946800259888 /* chooser-button-input-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33BD1E8E946800259888 /* chooser-button-input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input@2x.png"; sourceTree = "<group>"; };
+		C02B33BE1E8E946800259888 /* chooser-button-tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33BF1E8E946800259888 /* chooser-button-tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab@2x.png"; sourceTree = "<group>"; };
+		C02B33C01E8E946800259888 /* chooser-moment-button-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-button-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33C11E8E946800259888 /* chooser-moment-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-button@2x.png"; sourceTree = "<group>"; };
+		C02B33C21E8E946800259888 /* chooser-moment-icon-camera-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-camera-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33C31E8E946800259888 /* chooser-moment-icon-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-camera@2x.png"; sourceTree = "<group>"; };
+		C02B33C41E8E946800259888 /* chooser-moment-icon-music-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-music-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33C51E8E946800259888 /* chooser-moment-icon-music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-music@2x.png"; sourceTree = "<group>"; };
+		C02B33C61E8E946800259888 /* chooser-moment-icon-place-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-place-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33C71E8E946800259888 /* chooser-moment-icon-place@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-place@2x.png"; sourceTree = "<group>"; };
+		C02B33C81E8E946800259888 /* chooser-moment-icon-sleep-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-sleep-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33C91E8E946800259888 /* chooser-moment-icon-sleep@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-sleep@2x.png"; sourceTree = "<group>"; };
+		C02B33CA1E8E946800259888 /* chooser-moment-icon-thought-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-thought-highlighted@2x.png"; sourceTree = "<group>"; };
+		C02B33CB1E8E946800259888 /* chooser-moment-icon-thought@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-thought@2x.png"; sourceTree = "<group>"; };
+		C02B33CC1E8E946800259888 /* Like-Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-Blue@2x.png"; sourceTree = "<group>"; };
+		C02B33CD1E8E946800259888 /* Like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like@2x.png"; sourceTree = "<group>"; };
+		C02B33CE1E8E946800259888 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02B33391E8CFA2B00259888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B33521E8CFA2C00259888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B335D1E8CFA2C00259888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02B33331E8CFA2B00259888 = {
+			isa = PBXGroup;
+			children = (
+				C02B333E1E8CFA2B00259888 /* AV动画效果 */,
+				C02B33581E8CFA2C00259888 /* AV动画效果Tests */,
+				C02B33631E8CFA2C00259888 /* AV动画效果UITests */,
+				C02B333D1E8CFA2B00259888 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02B333D1E8CFA2B00259888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02B333C1E8CFA2B00259888 /* AV动画效果.app */,
+				C02B33551E8CFA2C00259888 /* AV动画效果Tests.xctest */,
+				C02B33601E8CFA2C00259888 /* AV动画效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02B333E1E8CFA2B00259888 /* AV动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				C02B338D1E8E3C9800259888 /* 综合案例 */,
+				C02B338E1E8E3C9800259888 /* 仿射变换 */,
+				C02B338F1E8E3C9800259888 /* 关键帧动画 */,
+				C02B33901E8E3C9800259888 /* 过渡动画 */,
+				C02B33911E8E3C9800259888 /* 基础动画 */,
+				C02B33921E8E3C9800259888 /* 组合动画 */,
+				C02B337F1E8D393600259888 /* BaseController */,
+				C02B33421E8CFA2B00259888 /* AppDelegate.h */,
+				C02B33431E8CFA2B00259888 /* AppDelegate.m */,
+				C02B33451E8CFA2B00259888 /* ViewController.h */,
+				C02B33461E8CFA2B00259888 /* ViewController.m */,
+				C02B337C1E8CFFD900259888 /* CustomButton.h */,
+				C02B337D1E8CFFD900259888 /* CustomButton.m */,
+				C02B33A51E8E4ECF00259888 /* HomeViewController.h */,
+				C02B33A61E8E4ECF00259888 /* HomeViewController.m */,
+				C02B33831E8D3B5E00259888 /* PrefixHeader.pch */,
+				C02B33481E8CFA2B00259888 /* Main.storyboard */,
+				C02B334B1E8CFA2B00259888 /* Assets.xcassets */,
+				C02B334D1E8CFA2B00259888 /* LaunchScreen.storyboard */,
+				C02B33501E8CFA2B00259888 /* Info.plist */,
+				C02B333F1E8CFA2B00259888 /* Supporting Files */,
+			);
+			path = "AV动画效果";
+			sourceTree = "<group>";
+		};
+		C02B333F1E8CFA2B00259888 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33401E8CFA2B00259888 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C02B33581E8CFA2C00259888 /* AV动画效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33591E8CFA2C00259888 /* AV____Tests.m */,
+				C02B335B1E8CFA2C00259888 /* Info.plist */,
+			);
+			path = "AV动画效果Tests";
+			sourceTree = "<group>";
+		};
+		C02B33631E8CFA2C00259888 /* AV动画效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33641E8CFA2C00259888 /* AV____UITests.m */,
+				C02B33661E8CFA2C00259888 /* Info.plist */,
+			);
+			path = "AV动画效果UITests";
+			sourceTree = "<group>";
+		};
+		C02B337F1E8D393600259888 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33801E8D394A00259888 /* BaseViewController.h */,
+				C02B33811E8D394A00259888 /* BaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		C02B338D1E8E3C9800259888 /* 综合案例 */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33A81E8E946800259888 /* Sounds */,
+				C02B33AC1E8E946800259888 /* MCFireworksButton */,
+				C02B33B11E8E946800259888 /* DCPathButton */,
+				C02B33B81E8E946800259888 /* DWBubbleMenuButton */,
+				C02B33BB1E8E946800259888 /* image */,
+				C02B33A21E8E3E9300259888 /* IntegrationAnimationController.h */,
+				C02B33A31E8E3E9300259888 /* IntegrationAnimationController.m */,
+			);
+			path = "综合案例";
+			sourceTree = "<group>";
+		};
+		C02B338E1E8E3C9800259888 /* 仿射变换 */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33961E8E3DC100259888 /* AffineTransformController.h */,
+				C02B33971E8E3DC100259888 /* AffineTransformController.m */,
+			);
+			path = "仿射变换";
+			sourceTree = "<group>";
+		};
+		C02B338F1E8E3C9800259888 /* 关键帧动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C02B339F1E8E3E2200259888 /* KeyFrameViewController.h */,
+				C02B33A01E8E3E2200259888 /* KeyFrameViewController.m */,
+			);
+			path = "关键帧动画";
+			sourceTree = "<group>";
+		};
+		C02B33901E8E3C9800259888 /* 过渡动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33991E8E3DFB00259888 /* TransitionAnimationController.h */,
+				C02B339A1E8E3DFB00259888 /* TransitionAnimationController.m */,
+			);
+			path = "过渡动画";
+			sourceTree = "<group>";
+		};
+		C02B33911E8E3C9800259888 /* 基础动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33871E8E351F00259888 /* CenterViewController.h */,
+				C02B33881E8E351F00259888 /* CenterViewController.m */,
+			);
+			path = "基础动画";
+			sourceTree = "<group>";
+		};
+		C02B33921E8E3C9800259888 /* 组合动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C02B339C1E8E3E0F00259888 /* GroupAnimationController.h */,
+				C02B339D1E8E3E0F00259888 /* GroupAnimationController.m */,
+			);
+			path = "组合动画";
+			sourceTree = "<group>";
+		};
+		C02B33A81E8E946800259888 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33A91E8E946800259888 /* bloom.caf */,
+				C02B33AA1E8E946800259888 /* fold.caf */,
+				C02B33AB1E8E946800259888 /* selected.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C02B33AC1E8E946800259888 /* MCFireworksButton */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33AD1E8E946800259888 /* MCFireworksButton.h */,
+				C02B33AE1E8E946800259888 /* MCFireworksButton.m */,
+				C02B33AF1E8E946800259888 /* MCFireworksView.h */,
+				C02B33B01E8E946800259888 /* MCFireworksView.m */,
+			);
+			path = MCFireworksButton;
+			sourceTree = "<group>";
+		};
+		C02B33B11E8E946800259888 /* DCPathButton */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33B21E8E946800259888 /* DCPathButton.h */,
+				C02B33B31E8E946800259888 /* DCPathButton.m */,
+				C02B33B41E8E946800259888 /* DCPathCenterButton.h */,
+				C02B33B51E8E946800259888 /* DCPathCenterButton.m */,
+				C02B33B61E8E946800259888 /* DCPathItemButton.h */,
+				C02B33B71E8E946800259888 /* DCPathItemButton.m */,
+			);
+			path = DCPathButton;
+			sourceTree = "<group>";
+		};
+		C02B33B81E8E946800259888 /* DWBubbleMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33B91E8E946800259888 /* DWBubbleMenuButton.h */,
+				C02B33BA1E8E946800259888 /* DWBubbleMenuButton.m */,
+			);
+			path = DWBubbleMenuButton;
+			sourceTree = "<group>";
+		};
+		C02B33BB1E8E946800259888 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C02B33BC1E8E946800259888 /* chooser-button-input-highlighted@2x.png */,
+				C02B33BD1E8E946800259888 /* chooser-button-input@2x.png */,
+				C02B33BE1E8E946800259888 /* chooser-button-tab-highlighted@2x.png */,
+				C02B33BF1E8E946800259888 /* chooser-button-tab@2x.png */,
+				C02B33C01E8E946800259888 /* chooser-moment-button-highlighted@2x.png */,
+				C02B33C11E8E946800259888 /* chooser-moment-button@2x.png */,
+				C02B33C21E8E946800259888 /* chooser-moment-icon-camera-highlighted@2x.png */,
+				C02B33C31E8E946800259888 /* chooser-moment-icon-camera@2x.png */,
+				C02B33C41E8E946800259888 /* chooser-moment-icon-music-highlighted@2x.png */,
+				C02B33C51E8E946800259888 /* chooser-moment-icon-music@2x.png */,
+				C02B33C61E8E946800259888 /* chooser-moment-icon-place-highlighted@2x.png */,
+				C02B33C71E8E946800259888 /* chooser-moment-icon-place@2x.png */,
+				C02B33C81E8E946800259888 /* chooser-moment-icon-sleep-highlighted@2x.png */,
+				C02B33C91E8E946800259888 /* chooser-moment-icon-sleep@2x.png */,
+				C02B33CA1E8E946800259888 /* chooser-moment-icon-thought-highlighted@2x.png */,
+				C02B33CB1E8E946800259888 /* chooser-moment-icon-thought@2x.png */,
+				C02B33CC1E8E946800259888 /* Like-Blue@2x.png */,
+				C02B33CD1E8E946800259888 /* Like@2x.png */,
+				C02B33CE1E8E946800259888 /* Sparkle.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02B333B1E8CFA2B00259888 /* AV动画效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B33691E8CFA2C00259888 /* Build configuration list for PBXNativeTarget "AV动画效果" */;
+			buildPhases = (
+				C02B33381E8CFA2B00259888 /* Sources */,
+				C02B33391E8CFA2B00259888 /* Frameworks */,
+				C02B333A1E8CFA2B00259888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AV动画效果";
+			productName = "AV动画效果";
+			productReference = C02B333C1E8CFA2B00259888 /* AV动画效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C02B33541E8CFA2C00259888 /* AV动画效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B336C1E8CFA2C00259888 /* Build configuration list for PBXNativeTarget "AV动画效果Tests" */;
+			buildPhases = (
+				C02B33511E8CFA2C00259888 /* Sources */,
+				C02B33521E8CFA2C00259888 /* Frameworks */,
+				C02B33531E8CFA2C00259888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02B33571E8CFA2C00259888 /* PBXTargetDependency */,
+			);
+			name = "AV动画效果Tests";
+			productName = "AV动画效果Tests";
+			productReference = C02B33551E8CFA2C00259888 /* AV动画效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C02B335F1E8CFA2C00259888 /* AV动画效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B336F1E8CFA2C00259888 /* Build configuration list for PBXNativeTarget "AV动画效果UITests" */;
+			buildPhases = (
+				C02B335C1E8CFA2C00259888 /* Sources */,
+				C02B335D1E8CFA2C00259888 /* Frameworks */,
+				C02B335E1E8CFA2C00259888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02B33621E8CFA2C00259888 /* PBXTargetDependency */,
+			);
+			name = "AV动画效果UITests";
+			productName = "AV动画效果UITests";
+			productReference = C02B33601E8CFA2C00259888 /* AV动画效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02B33341E8CFA2B00259888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XieHenry;
+				TargetAttributes = {
+					C02B333B1E8CFA2B00259888 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C02B33541E8CFA2C00259888 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C02B333B1E8CFA2B00259888;
+					};
+					C02B335F1E8CFA2C00259888 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C02B333B1E8CFA2B00259888;
+					};
+				};
+			};
+			buildConfigurationList = C02B33371E8CFA2B00259888 /* Build configuration list for PBXProject "AV动画效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02B33331E8CFA2B00259888;
+			productRefGroup = C02B333D1E8CFA2B00259888 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02B333B1E8CFA2B00259888 /* AV动画效果 */,
+				C02B33541E8CFA2C00259888 /* AV动画效果Tests */,
+				C02B335F1E8CFA2C00259888 /* AV动画效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02B333A1E8CFA2B00259888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B33DA1E8E946800259888 /* chooser-button-tab-highlighted@2x.png in Resources */,
+				C02B334F1E8CFA2B00259888 /* LaunchScreen.storyboard in Resources */,
+				C02B33E11E8E946800259888 /* chooser-moment-icon-music@2x.png in Resources */,
+				C02B33DE1E8E946800259888 /* chooser-moment-icon-camera-highlighted@2x.png in Resources */,
+				C02B33E41E8E946800259888 /* chooser-moment-icon-sleep-highlighted@2x.png in Resources */,
+				C02B33E01E8E946800259888 /* chooser-moment-icon-music-highlighted@2x.png in Resources */,
+				C02B33E51E8E946800259888 /* chooser-moment-icon-sleep@2x.png in Resources */,
+				C02B33EA1E8E946800259888 /* Sparkle.png in Resources */,
+				C02B33D91E8E946800259888 /* chooser-button-input@2x.png in Resources */,
+				C02B33DF1E8E946800259888 /* chooser-moment-icon-camera@2x.png in Resources */,
+				C02B33E21E8E946800259888 /* chooser-moment-icon-place-highlighted@2x.png in Resources */,
+				C02B33D11E8E946800259888 /* selected.caf in Resources */,
+				C02B334C1E8CFA2B00259888 /* Assets.xcassets in Resources */,
+				C02B33CF1E8E946800259888 /* bloom.caf in Resources */,
+				C02B33E61E8E946800259888 /* chooser-moment-icon-thought-highlighted@2x.png in Resources */,
+				C02B33DD1E8E946800259888 /* chooser-moment-button@2x.png in Resources */,
+				C02B33E31E8E946800259888 /* chooser-moment-icon-place@2x.png in Resources */,
+				C02B33D01E8E946800259888 /* fold.caf in Resources */,
+				C02B334A1E8CFA2B00259888 /* Main.storyboard in Resources */,
+				C02B33DB1E8E946800259888 /* chooser-button-tab@2x.png in Resources */,
+				C02B33DC1E8E946800259888 /* chooser-moment-button-highlighted@2x.png in Resources */,
+				C02B33E81E8E946800259888 /* Like-Blue@2x.png in Resources */,
+				C02B33E91E8E946800259888 /* Like@2x.png in Resources */,
+				C02B33D81E8E946800259888 /* chooser-button-input-highlighted@2x.png in Resources */,
+				C02B33E71E8E946800259888 /* chooser-moment-icon-thought@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B33531E8CFA2C00259888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B335E1E8CFA2C00259888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02B33381E8CFA2B00259888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B33D51E8E946800259888 /* DCPathCenterButton.m in Sources */,
+				C02B33471E8CFA2B00259888 /* ViewController.m in Sources */,
+				C02B339E1E8E3E0F00259888 /* GroupAnimationController.m in Sources */,
+				C02B33891E8E351F00259888 /* CenterViewController.m in Sources */,
+				C02B33D41E8E946800259888 /* DCPathButton.m in Sources */,
+				C02B33D31E8E946800259888 /* MCFireworksView.m in Sources */,
+				C02B33981E8E3DC100259888 /* AffineTransformController.m in Sources */,
+				C02B33821E8D394A00259888 /* BaseViewController.m in Sources */,
+				C02B33A11E8E3E2200259888 /* KeyFrameViewController.m in Sources */,
+				C02B337E1E8CFFD900259888 /* CustomButton.m in Sources */,
+				C02B33441E8CFA2B00259888 /* AppDelegate.m in Sources */,
+				C02B33A71E8E4ECF00259888 /* HomeViewController.m in Sources */,
+				C02B339B1E8E3DFB00259888 /* TransitionAnimationController.m in Sources */,
+				C02B33D71E8E946800259888 /* DWBubbleMenuButton.m in Sources */,
+				C02B33411E8CFA2B00259888 /* main.m in Sources */,
+				C02B33D61E8E946800259888 /* DCPathItemButton.m in Sources */,
+				C02B33D21E8E946800259888 /* MCFireworksButton.m in Sources */,
+				C02B33A41E8E3E9300259888 /* IntegrationAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B33511E8CFA2C00259888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B335A1E8CFA2C00259888 /* AV____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B335C1E8CFA2C00259888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B33651E8CFA2C00259888 /* AV____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02B33571E8CFA2C00259888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02B333B1E8CFA2B00259888 /* AV动画效果 */;
+			targetProxy = C02B33561E8CFA2C00259888 /* PBXContainerItemProxy */;
+		};
+		C02B33621E8CFA2C00259888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02B333B1E8CFA2B00259888 /* AV动画效果 */;
+			targetProxy = C02B33611E8CFA2C00259888 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C02B33481E8CFA2B00259888 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B33491E8CFA2B00259888 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C02B334D1E8CFA2B00259888 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B334E1E8CFA2B00259888 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02B33671E8CFA2C00259888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02B33681E8CFA2C00259888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02B336A1E8CFA2C00259888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AV动画效果/PrefixHeader.pch";
+				INFOPLIST_FILE = "AV动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.AV----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02B336B1E8CFA2C00259888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AV动画效果/PrefixHeader.pch";
+				INFOPLIST_FILE = "AV动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.AV----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C02B336D1E8CFA2C00259888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AV动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.AV----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AV动画效果.app/AV动画效果";
+			};
+			name = Debug;
+		};
+		C02B336E1E8CFA2C00259888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AV动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.AV----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AV动画效果.app/AV动画效果";
+			};
+			name = Release;
+		};
+		C02B33701E8CFA2C00259888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AV动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.AV----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AV动画效果";
+			};
+			name = Debug;
+		};
+		C02B33711E8CFA2C00259888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AV动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.AV----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AV动画效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02B33371E8CFA2B00259888 /* Build configuration list for PBXProject "AV动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B33671E8CFA2C00259888 /* Debug */,
+				C02B33681E8CFA2C00259888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B33691E8CFA2C00259888 /* Build configuration list for PBXNativeTarget "AV动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B336A1E8CFA2C00259888 /* Debug */,
+				C02B336B1E8CFA2C00259888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B336C1E8CFA2C00259888 /* Build configuration list for PBXNativeTarget "AV动画效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B336D1E8CFA2C00259888 /* Debug */,
+				C02B336E1E8CFA2C00259888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B336F1E8CFA2C00259888 /* Build configuration list for PBXNativeTarget "AV动画效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B33701E8CFA2C00259888 /* Debug */,
+				C02B33711E8CFA2C00259888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02B33341E8CFA2B00259888 /* Project object */;
+}
