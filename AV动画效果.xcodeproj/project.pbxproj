@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B45175C20EF710C005F57E4 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45175A20EF710C005F57E4 /* CenterViewController.m */; };
 		C02B33411E8CFA2B00259888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33401E8CFA2B00259888 /* main.m */; };
 		C02B33441E8CFA2B00259888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33431E8CFA2B00259888 /* AppDelegate.m */; };
 		C02B33471E8CFA2B00259888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33461E8CFA2B00259888 /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		C02B33651E8CFA2C00259888 /* AV____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33641E8CFA2C00259888 /* AV____UITests.m */; };
 		C02B337E1E8CFFD900259888 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B337D1E8CFFD900259888 /* CustomButton.m */; };
 		C02B33821E8D394A00259888 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33811E8D394A00259888 /* BaseViewController.m */; };
-		C02B33891E8E351F00259888 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33881E8E351F00259888 /* CenterViewController.m */; };
 		C02B33981E8E3DC100259888 /* AffineTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B33971E8E3DC100259888 /* AffineTransformController.m */; };
 		C02B339B1E8E3DFB00259888 /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B339A1E8E3DFB00259888 /* TransitionAnimationController.m */; };
 		C02B339E1E8E3E0F00259888 /* GroupAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B339D1E8E3E0F00259888 /* GroupAnimationController.m */; };
@@ -72,6 +72,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B45175A20EF710C005F57E4 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		5B45175B20EF710C005F57E4 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
 		C02B333C1E8CFA2B00259888 /* AV动画效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AV动画效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02B33401E8CFA2B00259888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C02B33421E8CFA2B00259888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,8 +95,6 @@
 		C02B33801E8D394A00259888 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C02B33811E8D394A00259888 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		C02B33831E8D3B5E00259888 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		C02B33871E8E351F00259888 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CenterViewController.h; path = ../CenterViewController.h; sourceTree = "<group>"; };
-		C02B33881E8E351F00259888 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CenterViewController.m; path = ../CenterViewController.m; sourceTree = "<group>"; };
 		C02B33961E8E3DC100259888 /* AffineTransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineTransformController.h; sourceTree = "<group>"; };
 		C02B33971E8E3DC100259888 /* AffineTransformController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineTransformController.m; sourceTree = "<group>"; };
 		C02B33991E8E3DFB00259888 /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationController.h; sourceTree = "<group>"; };
@@ -168,6 +168,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B45175920EF710C005F57E4 /* 基础动画 */ = {
+			isa = PBXGroup;
+			children = (
+				5B45175B20EF710C005F57E4 /* CenterViewController.h */,
+				5B45175A20EF710C005F57E4 /* CenterViewController.m */,
+			);
+			path = "基础动画";
+			sourceTree = "<group>";
+		};
 		C02B33331E8CFA2B00259888 = {
 			isa = PBXGroup;
 			children = (
@@ -195,9 +204,9 @@
 				C02B338E1E8E3C9800259888 /* 仿射变换 */,
 				C02B338F1E8E3C9800259888 /* 关键帧动画 */,
 				C02B33901E8E3C9800259888 /* 过渡动画 */,
-				C02B33911E8E3C9800259888 /* 基础动画 */,
 				C02B33921E8E3C9800259888 /* 组合动画 */,
 				C02B337F1E8D393600259888 /* BaseController */,
+				5B45175920EF710C005F57E4 /* 基础动画 */,
 				C02B33421E8CFA2B00259888 /* AppDelegate.h */,
 				C02B33431E8CFA2B00259888 /* AppDelegate.m */,
 				C02B33451E8CFA2B00259888 /* ViewController.h */,
@@ -290,15 +299,6 @@
 				C02B339A1E8E3DFB00259888 /* TransitionAnimationController.m */,
 			);
 			path = "过渡动画";
-			sourceTree = "<group>";
-		};
-		C02B33911E8E3C9800259888 /* 基础动画 */ = {
-			isa = PBXGroup;
-			children = (
-				C02B33871E8E351F00259888 /* CenterViewController.h */,
-				C02B33881E8E351F00259888 /* CenterViewController.m */,
-			);
-			path = "基础动画";
 			sourceTree = "<group>";
 		};
 		C02B33921E8E3C9800259888 /* 组合动画 */ = {
@@ -441,11 +441,12 @@
 		C02B33341E8CFA2B00259888 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = XieHenry;
 				TargetAttributes = {
 					C02B333B1E8CFA2B00259888 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YZK33WLG48;
 						ProvisioningStyle = Automatic;
 					};
 					C02B33541E8CFA2C00259888 = {
@@ -537,9 +538,9 @@
 				C02B33D51E8E946800259888 /* DCPathCenterButton.m in Sources */,
 				C02B33471E8CFA2B00259888 /* ViewController.m in Sources */,
 				C02B339E1E8E3E0F00259888 /* GroupAnimationController.m in Sources */,
-				C02B33891E8E351F00259888 /* CenterViewController.m in Sources */,
 				C02B33D41E8E946800259888 /* DCPathButton.m in Sources */,
 				C02B33D31E8E946800259888 /* MCFireworksView.m in Sources */,
+				5B45175C20EF710C005F57E4 /* CenterViewController.m in Sources */,
 				C02B33981E8E3DC100259888 /* AffineTransformController.m in Sources */,
 				C02B33821E8D394A00259888 /* BaseViewController.m in Sources */,
 				C02B33A11E8E3E2200259888 /* KeyFrameViewController.m in Sources */,
@@ -616,15 +617,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -665,15 +674,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -702,6 +719,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZK33WLG48;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AV动画效果/PrefixHeader.pch";
 				INFOPLIST_FILE = "AV动画效果/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -714,6 +732,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZK33WLG48;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AV动画效果/PrefixHeader.pch";
 				INFOPLIST_FILE = "AV动画效果/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

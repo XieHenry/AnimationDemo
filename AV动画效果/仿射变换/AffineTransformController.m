@@ -60,7 +60,7 @@
 -(void)affineTransformAnimation:(CGAffineTransform)transform {
     _demoView.transform = CGAffineTransformIdentity;
     [UIView animateWithDuration:1 animations:^{
-        _demoView.transform = transform;
+        self.demoView.transform = transform;
     }];
 }
 

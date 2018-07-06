@@ -59,7 +59,7 @@
     [CATransaction begin];
     [CATransaction setAnimationDuration:_animationDuration];
     [CATransaction setCompletionBlock:^{
-        for (UIButton *button in _buttonContainer) {
+        for (UIButton *button in self.buttonContainer) {
             button.transform = CGAffineTransformIdentity;
         }
         
@@ -168,7 +168,7 @@
     [CATransaction setCompletionBlock:^{
         [self _finishCollapse];
         
-        for (UIButton *button in _buttonContainer) {
+        for (UIButton *button in self.buttonContainer) {
             button.transform = CGAffineTransformIdentity;
             button.hidden = YES;
         }

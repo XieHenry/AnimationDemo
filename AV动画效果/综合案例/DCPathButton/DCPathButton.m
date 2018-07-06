@@ -218,7 +218,7 @@
                           delay:0.0618f * 2
                         options:UIViewAnimationOptionCurveEaseIn
                      animations:^{
-                         _pathCenterButton.transform = CGAffineTransformMakeRotation(0);
+                         self.pathCenterButton.transform = CGAffineTransformMakeRotation(0);
                      }
                      completion:nil];
     
@@ -226,7 +226,7 @@
                           delay:0.35f
                         options:UIViewAnimationOptionCurveLinear
                      animations:^{
-                         _bottomView.alpha = 0.0f;
+                         self.bottomView.alpha = 0.0f;
                      }
                      completion:nil];
     
@@ -307,7 +307,7 @@
                           delay:0.0f
                         options:UIViewAnimationOptionCurveEaseIn
                      animations:^{
-                         _bottomView.alpha = 0.618f;
+                        self.bottomView.alpha = 0.618f;
                      }
                      completion:nil];
     
@@ -315,7 +315,7 @@
     //
     [UIView animateWithDuration:0.1575f
                      animations:^{
-                         _pathCenterButton.transform = CGAffineTransformMakeRotation(-0.75f * M_PI);
+                         self.pathCenterButton.transform = CGAffineTransformMakeRotation(-0.75f * M_PI);
                      }];
     
     self.pathCenterButton.center = self.pathCenterButtonBloomCenter;
